@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: lato;
+    font-weight: 300;
+}
+
+.container{
+    background-color: white;
+    height: 95vh;
+    width: 35%;
+    border-radius: 5px;
+    border: 1px solid  rgba(0,0,0,0.3);
+    box-shadow:1px 1px 2px  rgba(0,0,0,0.3)
+}
+.form{
+    padding:20px;
+}
+
+h2{
+    text-align: center;
+    color: darkolivegreen;
+   
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(121, 117, 117);
+}
+
+input{
+    display: block;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 50px;
+}
+input:focus{
+    outline: none;
+    border:gray 1px solid;
+}
+::-moz-placeholder{
+    color:darkslategray;
+}
+
+
+button{
+    width: 100%;
+    height: 5vh;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;
+}
+
+#btn{
+    margin-top: 10px;
+}
+small{
+    font-size: 13px;
+    visibility: hidden;
+}
+
+.error {
+    visibility: visible;
+    color: red;
+}
+
+
+.input-error{
+    border: red 1px solid;
+}
+
+.input-success{
+border: 1px solid green;
+}
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+}
+
+.form{
+    padding: 20px 30px;
+    background-color: wheat;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgb(241, 218, 176) ;
+    width: 300px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+
+}
+#details{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+
+label{
+    display: block;
+    color: rgb(28, 28, 95);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+button{
+    display: block;
+    background-color: lightskyblue;
+    font-size: 15px;
+    padding: 15px;
+    width: 100%;
+    border: 2px solid lightblue;
+    box-shadow: 1px 1px 1px rgb(169, 200, 211);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    color: gray;
+    display: block;
+    width: 100%;
+}
+
+input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+small{
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+.error{
+    color: red;
+    visibility: visible;
+}
+
+.error-outline{
+    outline-color: red;
+} */
